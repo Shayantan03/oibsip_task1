@@ -1,0 +1,230 @@
+/*Entire Document*/
+body{
+    background-color: black;
+}
+/*For Page Heading*/
+.Page_Heading{
+    background: url(header\ background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 8%;
+}
+#Page_Heading_Left_Logo{
+    display: inline;
+    background-color: black;
+}
+li{
+    display: inline;
+
+}
+#Page_Heading_Right_Menu{
+    text-align: right;
+    background-color: black;
+}
+.Menu_items{
+    display: inline-block;
+    outline: none;
+    text-decoration: none;
+    margin-right: 2%;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 10%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+}
+.Menu_items:hover{
+    background-color: #FFCC33;
+    color: black;
+}
+#Page_Heading_Head{
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10%;
+    color: white;
+    font-weight: bold;
+}
+#Page_Heading_Para{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 11%;
+    color: white;
+    font-weight: bold;
+}
+.Page_Heading_Buttons{
+    display: inline;
+    text-decoration: none;
+    color: black;
+}
+#Page_Heading_Button1{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 11%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #CCFF33;
+    border-radius: 12px;
+    border-style: outset;
+}
+#Page_Heading_Button1:hover{
+    background-color: #FFCC00;
+}
+#Page_Heading_Button2{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #66CC66;
+    border-radius: 12px;
+    border-style: outset;
+}
+#Page_Heading_Button2:hover{
+    background-color: #66FF66;
+}
+
+/*For About us*/
+#About_Us_Heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: #66FFFF;
+    font-weight: bold;
+    text-align: center;
+}
+#About_Us_Para{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: justify;
+    color: white;
+}
+#About_Us_Read_More{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #0099ff 0%, #ff3399 100%);
+    color: white;
+    text-align: center;
+    padding: 1%;
+    border-radius: 12px;
+    text-decoration: none;
+}
+#About_Us_Read_More:hover{
+    background: linear-gradient(to bottom, #003366 0%, #003366 100%);
+    color: yellow;
+}
+/*For Explore*/
+#Explore_Heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: #FF0066;
+    text-align: center;
+    font-weight: bold;
+}
+#Mount_kailash_Heading{
+    color: #FFCC00;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#Mount_Kailash_Para{
+    color: White;
+    text-align: justify;
+    font-size: 20px;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#Durga_temple_Heading{
+    color: #FF6633;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#Durga_Temple_Para{
+    color: White;
+    text-align: justify;
+    font-size: 20px;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+#Red_Bird_Heading{
+    color: #FF3399;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#Red_Bird_Para{
+    color: White;
+    text-align: justify;
+    font-size: 20px;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Images{
+    border-radius: 24px;
+}
+.Explore_Read_More{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #ffcc00 0%, #ff3300 100%);
+    color: black;
+    text-align: center;
+    border-radius: 12px;
+    text-decoration: none;
+    margin-left: 1%;
+    padding: 1%;
+}
+.Explore_Read_More:hover{
+    background: linear-gradient(to bottom, #ff0066 0%, #990000 100%);
+    color: white;
+}
+.One{
+    padding-left: 1%;
+}
+#Load{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bolder;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 24px;
+    padding: 2px;
+    padding-left: 42.5%;
+    padding-right: 42.5%;
+    border: 1px solid white;
+}
+#Load:hover{
+    background-color: white;
+    color: black;
+}
+/*For Footer*/
+#Contact{
+    color: white;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+#Submit{
+    color: white;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+#Copyright{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+}
